@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/candidate.css" />
+    <title>Candidate</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/index.html" class="section-1">
+            <div class="logo"><img src="/images/I2.png" alt="Not Found" /></div>
+            <h2>Recruitify</h2>
+        </a>
+        <div class="nav">
+            <a href="/index.html" class="nav-link"> Home </a>
+            <a href="#" class="nav-link"> Job Postings </a>
+            <a href="/candidatePage.html" class="nav-link"> Candidates </a>
+            <a href="#" class="nav-link"> Collaboration </a>
+            <a href="#" class="nav-link"> Contact </a>
+        </div>
+        <div class="section-3">
+            <a href="/register.html" class="reg">Register</a>
+            <a href="/login.html" class="logIn">Login</a>
+        </div>
+    </header>
+
+
+    <div class="candidate-container">
+        <div class="box">
+            <h2>Candidate Search</h2>
+            <div class="search-section">
+                <input type="text" id="locationInput" placeholder="Enter location" />
+                <input type="text" id="jobRoleInput" placeholder="Enter job role" />
+                <button id="searchButton">Search</button>
+            </div>
+            <div class="candidate-list" id="candidateList"></div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#">Job Postings</a></li>
+                    <li><a href="#">Candidates</a></li>
+                    <li><a href="#">Collaboration</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Privacy & Policy</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Subscribe to Our Newsletter</h4>
+                <form class="footer-form">
+                    <input type="email" placeholder="Enter your email" class="footer-input" />
+                    <button type="submit" class="footer-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
